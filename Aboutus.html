@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Us</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Open+Sans&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+   <script>
+
+     $(document).ready(function(){
+      $('.toggle i').click(function(){
+        $('.menu').toggle('slow');
+      });
+     });
+
+
+
+     $(document).ready(function(){       
+            var scroll_pos = 0;
+            $(document).scroll(function() { 
+                scroll_pos = $(this).scrollTop();
+                if(scroll_pos > 210) {
+                    $("nav").css('background-color', 'rgba(0, 0, 0, 0.9)');
+                } else {
+                    $("nav").css('background-color', 'transparent');
+                }
+            });
+        });
+   </script>
+</head>
+<body>
+
+   <!--------Navbar section------->
+   <nav>
+     <div class="logo">
+       <img src="images/logo.png" alt="logo">
+     </div>
+
+     <div class="toggle">
+       <i class="fa fa-bars" aria-hidden="true"></i>
+     </div>
+
+     <div class="menu">
+       <ul>
+         <li><a href="Nereus.html">Home</a></li>
+         <li><a href="Aboutus.html">About Us</a></li>
+         <li><a href="#">Services</a></li>
+         <li><a href="#">Carrier</a></li>
+         <li><a href="#">Contact Us</a></li>
+       </ul>
+     </div>
+   </nav>
+  
+   <!--------Banner section------->
+   
+   <section class="banner">
+   	 <img src="images/banner_.jpg" alt="-Banner-background">
+     <div class="banner-content">
+     <h1>About us</h1>
+     </div>
+   </section>
+
+  <!--------Mission and Vision section------->
+
+  <section class="vision-mission">
+     <div class="row">
+        <div class="col-50 center-content">
+           <div class="mini-container">
+             <h2>Our Vision</h2>
+             <p>To help solve the world’s hardest problems with the world’s smartest people.</p>
+           </div>
+       </div>
+
+       <div class="col-50">
+        <img src="images/vision_img.jpg" class="o-cover" alt="Vision-info">
+       </div>
+
+       <div class="col-50">
+        <img src="images/mission_img.jpg" class="o-cover" alt="Vision-info">
+       </div>
+
+       <div class="col-50 center-content">
+          <div class="mini-container">
+            <h2>Our Mission</h2>
+            <p>To help solve the world’s hardest problems with the world’s smartest people.</p>
+          </div>
+       </div>
+    </div>
+  </section>
+
+  <!--------Trusts section------->
+
+  <section class="trusts"> 
+        <h2>Founded On trust</h2>
+        <div class="trust-logo">
+        	<img src="images/google.png" alt="google-img">
+        	<img src="images/google.png" alt="google-img">
+        	<img src="images/google.png" alt="google-img">
+        	<img src="images/google.png" alt="google-img">
+        </div>
+  </section> 
+
+  <!--------About-Us section------->
+
+  <section class="container aboutus"> 
+      <h2>ABOUT US</h2>
+    	<p>Nereus Technology is a powerful company focused on our customers’ unconditional success and future vision. With over 40 years of collective experience in some of the most sensitive and protected networks on the planet, we are uniquely qualified to be able to support our customers’ challenges. We are driven to create a customer relationship that will span the lifetime of your company and your work at a budget you can afford.</p>
+  </section>
+
+  <!--------Culture section------->
+  
+  <section class="container culture">
+      <h2>PURPOSE-DRIVEN CULTURE</h2>
+    	<p>At Nereus, we strive to create a culture that has a purpose in the work that we are doing. That purpose is 
+      engrained with a spirit of collaboration, competitive work and a willingness to question the status quo. We aim to focus on relationships, and not just a profit motive so that we can continue to innovatively create for ourselves and those we are working with.</p>
+  
+
+
+
+      <ul class="medium-container">
+        <li> <span> > </span> A passion for lifelong learning</li>
+        <li> <span> > </span> A clear and zealous focus on customer success and their mission </li>
+        <li> <span> > </span>  Compassion for those around, no matter their role or place in life </li>
+        <li> <span> > </span> A commitment to doing good for the whole through calculated risks </li>
+        <li> <span> > </span> Take ownership and execute intelligently, we are all builders </li>
+      </ul>
+  </section>
+
+  <!--------Team section------->
+
+  <section class="team-work">
+      <img src="images/bg_Group_.png" alt="team-work">
+          <div class="medium-container">
+  		      <h3>“A group of dedicated, team-oriented people who
+             support one another and collectively focus on the
+             good over the profit margin in all work.”</h3>
+          </div>
+  </section>
+
+  <!--------Leadership section------->
+
+  <section class="container leadership">
+      <h2>COMPASSIONATE LEADERSHIP</h2>
+    	<p>We strive to recognize strengths and deficits so that we, as an organization, can build off of one another and with our partners. Understanding areas of improvement is one of our keys to success so that we can continue to be a value to our customers and our partners. 
+      </p>
+  </section>
+
+  <!--------Bandon Information------->
+
+  <section class="container bandon"> 
+     	<div class="bandon-img">
+         <img src="images/bandon.jpg" alt="BRANDON STEWART-IMG">
+      </div>
+      <div class="bandon-intro">
+     		 <h2><span>BRANDON STEWART</span></h2>
+     		 <h3>CHIEF EXECUTIVE OFFICER, PARTNER</h3>
+     		   <p>Brandon Stewart has helped found and
+              manage three successful startups in the
+              Value Added Reseller space, as well as 
+              advise</p> 
+              <p>multiple start-up ventures such as Palo Alto
+                Network, FireEye, and Splunk. He has a mas
+                ters degree from Fletcher School of Law and 
+                Diplomacy in International Affairs focusing on
+                Cyber Warfare and Economics. He has 
+                from the DoD, IC, and the US Department of
+                Energy as well as Fortune 50 accounts and 
+                was a part of the team that closed the largest 
+                US</p>
+                <p>Government Splunk acquisition to date. His 
+                driving core values are integrity and 
+                commitment to those he works with and
+                compassion for those around him.</p>
+     	  </div>
+    </section>
+   
+  <!--------Darren Information------->
+  
+  <section class="container darren">
+         <div class="darren-img"><img src="images/darren_van.jpg" alt="DARREN-VAN BOOVEN-IMG">
+         </div>
+         <div class="darren-intro">
+                 <h2><span>DARREN VAN BOOVEN</span></h2>
+                 <h3>CHIEF TECHNOLOGY OFFICER, PARTNER</h3>
+                 <p>Darren Van Booven’s focus is ensuring Nereus
+                  has the right skills, technology platform, and methodology to enable its customers to be successful. Known for thought leadership in Cloud architecture and operations, technical risk management, program management, and cybersecurity, he has leveraged his technical and business expertise to build world-class and award-winning cybersecurity and information technology programs. Having served in a number of senior executive positions in both the federal government and private financial sectors, including his seven years as an 
+                  intelligence officer for the Central Intelligence Agency’s (CIA) Directorate of Operations, Darren strongly believes that all companies today are technology companies relying on technology as a competitive advantage to keep them relevant in the marketplace and is passionate about using technology to make the world a better place.
+         </div>
+  </section>  
+
+ <!--------Contact-Us------->
+
+   <section class="contact">
+
+     <div class="contact-img">
+       <img src="images/contact.jpg" alt="contact-img">
+     </div>
+     <div class="contact-us">
+      <h2>CONTACT US</h2>
+      <p>Feel Free to reach out with any and all inquiries about nvigating the cloud.</p>
+      <form>
+        <input type="text" name="Username" placeholder="Name*">
+        <input type="text" name="Username" placeholder="Email*">
+        <input type="text" name="Username" placeholder="Subject*">
+        <input type="text" name="Username" placeholder="Phone Number#">
+        <textarea placeholder="Message*"></textarea> 
+        <button>Send</button>
+      </form>
+     </div>
+   </section>
+    
+ <!----------Footer------------->
+
+  <footer>
+    <div class="footer-about container">
+
+          <div class="footer-section footer-logo">
+             <img src="images/main_logo.png" alt="footer-logo">
+             <div class="logo-social">
+             <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+             <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+             <a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+             <a href="#"><i class="fa fa-quora" aria-hidden="true"></i></a>
+             <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+             </div>           
+          </div>
+
+          <div class="footer-section footer-company">
+             <h3>COMPANY</h3> 
+             <p>Home services about us treaning partners</p>
+          </div>
+
+          <div class="footer-section footer-legal">
+            <h3>LEGAL</h3> 
+            <p>privacy policy terms of use licensing agreement</p>
+          </div>
+
+          <div class="footer-section footer-contact">
+             <h3>CONTACT</h3>
+               <span><i class="fa fa-phone" aria-hidden="true"></i> 202-205-206</span><br>
+              <span><i class="fa fa-envelope-o" aria-hidden="true"></i> nereus@gmail.com</span>
+          </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; all copirights received || since 2003</p>
+    </div>
+
+  </footer>
+
+</body>
+</html>

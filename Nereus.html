@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nereus</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Open+Sans&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script>
+
+      $(document).ready(function(){
+        // for toggle navbar
+
+       $('.toggle i').click(function(){
+         $('.menu').toggle('slow');
+       });
+       
+       // On scroll colour change
+
+        var scroll_pos = 0;
+            $(document).scroll(function() { 
+                scroll_pos = $(this).scrollTop();
+                if(scroll_pos > 210) {
+                    $("nav").css('background-color', 'rgba(0, 0, 0, 0.9)');
+                } else {
+                    $("nav").css('background-color', 'transparent');
+                }
+            });
+      });
+
+    
+   </script>
+</head>
+<body>
+  <!--------Navbar section------->
+    <nav>
+     <div class="logo">
+       <img src="images/logo.png" alt="logo">
+     </div>
+     <div class="toggle">
+       <i class="fa fa-bars" aria-hidden="true"></i>
+     </div>
+     <div class="menu">
+       <ul>
+         <li><a href="Nereus.html">Home</a></li>
+         <li><a href="Aboutus.html">About Us</a></li>
+         <li><a href="#">Services</a></li>
+         <li><a href="#">Carrier</a></li>
+         <li><a href="#">Contact Us</a></li>
+       </ul>
+     </div>
+   </nav>  
+  
+  <!--------Banner section------->
+
+  <section class="banner">
+   	 <img src="images/banner-bg.png" alt="Banner-background">
+     <div class="main-logo">
+        <img src="images/main_logo.png" alt="main-logo">
+     </div>
+  </section>
+
+  <!--------Provides Section------->
+
+   <section class="provide container">
+
+   	  <h2>WE PROVIDE SAVE PASSAGE</h2>
+   	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+   	  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+   	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+   	  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+   	  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+   	  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+   </section>
+
+   <!--------Learn Section------->
+
+   <section class="learn">
+   	
+   	   <img src="images/img-4.jpg"  alt="learn-img">
+   	   <div class="medium-container">
+      	  <h2>With Proper Treaning To Navigate The Cloud</h2>
+      	  <h3>LEARN</h3>
+       </div>
+
+   </section>
+
+   <!--------Services Section------->
+
+   <section class="services row">
+     
+        <div class="col-50 center-content">
+           <div class="mini-container">
+                <h3>PROFESSIONAL SERVICES</h3>
+                <p>To help solve the world’s hardest problems with the world’s smartest people.</p>
+
+                <div  class="services1-icon">
+                   <i class="fa fa-credit-card-alt" aria-hidden="true"></i>
+                   <i class="fa fa-id-card" aria-hidden="true"></i>
+                   <i class="fa fa-handshake-o" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-50">
+           <img src="images/vision_img.jpg" class="o-cover" alt="Vision-info">
+        </div>
+
+        <div class="col-50">
+           <img src="images/mission_img.jpg" class="o-cover" alt="Vision-info">
+        </div>
+
+        <div class="col-50 center-content">
+            <div  class="services2-icon mini-container">
+                <i class="fa fa-credit-card-alt" aria-hidden="true"></i>
+                <i class="fa fa-id-card-o" aria-hidden="true"></i>
+                <i class="fa fa-id-card" aria-hidden="true"></i>
+                <i class="fa fa-id-card" aria-hidden="true"></i>
+            </div>
+        </div>
+
+  </section>
+
+  <!--------Trusts section------->
+
+  <section class="trusts">  
+    
+     	<h2>Founded On trust</h2>
+        <div class="trust-logo">
+        	   <img src="images/horse-logo2.jpg" alt="horse-logo-img">
+        	   <img src="images/eagle-head-logo.jpg" alt="eagle-logo-img">
+        	   <img src="images/coffee-cup-logo.jpg" alt="coffee-logo-img">
+          	 <img src="images/batman-m-logo.jpg" alt="batman-logo-img">
+        </div>
+  
+  </section> 
+
+  <!--------Contact-Us------->
+
+   <section class="contact">
+        <div class="contact-img">
+           <img src="images/contact.jpg" alt="contact-img">
+        </div>
+
+        <div class="contact-us">
+            <h2>CONTACT US</h2>
+            <p>Feel Free to reach out with any and all inquiries about nvigating the cloud.</p>
+            <form>
+            <input type="text" name="Username" placeholder="Name*">
+            <input type="text" name="Username" placeholder="Email*">
+            <input type="text" name="Username" placeholder="Subject*">
+            <input type="text" name="Username" placeholder="Phone Number#">
+            <textarea placeholder="Message*"></textarea> 
+              <button>Send</button>
+            </form>
+        </div>
+  </section>
+     
+  <!--------Footer------->
+     
+  <footer>
+   	<div class="footer-content container">
+
+   		<div class="footer-section agency">
+          <h3>WE ARE CREATIVE AGENCY</h3> 
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore</p>
+          <div class="footer-social">
+          	<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          	<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          	<a href="#"><i class="fa fa-quora" aria-hidden="true"></i></a>
+          	<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          </div>           
+   		</div>
+
+   		<div class="footer-section company">
+          <h3>COMPANY</h3> 
+          <p>about us job press contant blog</p>
+   		</div>
+
+   		<div class="footer-section post">
+          <h3>RECENT POSTS</h3> 
+          <p>Multi Purpose cuiture theme</p>
+          	<p>I wish someone would ask me to design a cathedraw</p>
+          	<p>Multi Purpose cuiture theme</p>
+          	<p>Multi Purpose cuiture theme</p>
+   		</div>
+
+   		<div class="footer-section follow">
+          <h3>FOLLOW US</h3>
+          <div class="gallery">
+          	<img src="images/vision_img.jpg">
+          	<img src="images/mission_img.jpg">
+          	<img src="images/vision_img.jpg">
+          	<img src="images/mission_img.jpg">
+          	<img src="images/vision_img.jpg">
+          	<img src="images/mission_img.jpg">
+          	
+          </div>
+   		</div>
+   	</div>
+
+   	<div class="footer-bottom">
+   		<p>&copy; all copirights received || since 2003</p>
+   	</div>
+  </footer> 
+
+</body>
+</html>
+
+
+   
+ 
+
